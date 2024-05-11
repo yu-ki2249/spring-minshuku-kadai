@@ -23,7 +23,7 @@ public class UserEditForm {
 	@NotBlank(message = "住所を入力してください。")
 	private String address;
 	
-	@NotBlank(message = "電話番号を入力してください。。")
+	@NotBlank(message = "電話番号を入力してください。")
 	private String phoneNumber;
 	
 	@NotBlank(message = "メールアドレスを入力してください。")
