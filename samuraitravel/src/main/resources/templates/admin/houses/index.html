@@ -68,13 +68,13 @@
 
 									<!--削除用モーダル -->
 									<div class="modal fade" th:id="${'deleteHouseModal' + house.getId()}" tabindex="-1"
-										th:aria-labelleaby="${'deleteHouseModal' + house.getId()}">
+										th:aria-labelledby="${'deleteHouseModalLabel' + house.getId()}">
 										<div class="modal-dialog">
 											<div class="modal-content">
 												<div class="modal-header">
 													<h5 class="modal-title"
-														th:id="${'deleteHouseModal' + house.getId()}"
-														th:text="${house.getName() + 'を削除してもよろしいでしょうか？'}"></h5>
+														th:id="${'deleteHouseModalLabel' + house.getId()}"
+														th:text="${house.getName() + 'を削除してもよろしいですか？'}"></h5>
 													<button type="button" class="btn-close" data-bs-dismiss="modal"
 														aria-label="閉じる"></button>
 												</div>
